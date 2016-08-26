@@ -31,13 +31,6 @@ Or get composer to install the package:
 $ composer require astritzeqiri/g-recaptcha
 ```
 
-Then you run php artisan vendor:publish to publish the start_captchas script and also the recaptcha config file.
-
-```
-$ php artisan vendor:publish
-```
-
-
 ## Configuration
 
 Now you go and generate a new Google recaptcha on the link below:
@@ -88,6 +81,11 @@ Then you need to add GRecaptcha class within the `aliases` array found in `app/c
 )
 ```
 
+Then you run php artisan vendor:publish to publish the start_captchas script and also the recaptcha config file.
+
+```
+$ php artisan vendor:publish
+```
 ## Usage
 
 
