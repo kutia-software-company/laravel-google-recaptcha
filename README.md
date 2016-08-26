@@ -109,7 +109,7 @@ Now to render a new GRecaptcha you call the render method.
 // by default it echo's it out
 GRecaptcha::render();
 
-// if you want to save the html in a variable you call
+// if you want to save the html in a variable you call 
 $grecaptchaHtml = GRecaptcha::render([], false);
 ```
 
@@ -122,4 +122,15 @@ $grecaptcha->renderHtml();
 
 // if you dont want it to be rendered but store the html you call
 $grecaptchaHtml = $grecaptcha->build();
+```
+
+
+### Validation
+
+When you validate a form to validate the recaptcha you use the rule grecaptcha
+
+```php
+$validator = Validator::make($inputs,
+    ['g-recaptcha-response' => 'required|grecaptcha']
+);
 ```
