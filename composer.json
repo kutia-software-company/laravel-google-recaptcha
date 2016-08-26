@@ -1,0 +1,26 @@
+{
+    "name": "astritzeqiri/g-recaptcha",
+    "description": "Easily add google recaptcha",
+    "type": "laravel-plugin",
+    "keywords": ["Google recaptcha", "g-recaptcha", "laravel", "authentication"],
+    "homepage": "https://github.com/astritzeqiri/g-recaptcha",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Astrit Zeqiri",
+            "email": "astritzeqiri5@gmail.com",
+            "homepage": "http://astritzeqiri.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.*",
+        "guzzlehttp/guzzle": "~5.3|~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AstritZeqiri\\GRecaptcha\\": "src/"
+        }
+    }
+}
