@@ -265,6 +265,6 @@ class GRecaptcha
 	 */
 	public static function startCaptchasScriptUrl()
 	{
-		return asset("site/js/start_captchas.js");
+		return asset('vendor/grecaptcha/js/start_captchas.js');
 	}
 }

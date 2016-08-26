@@ -4,7 +4,6 @@ var CaptchaCallback = function() {
   	if($recaptchas.length > 0){
     	$recaptchas.each(function(){
       		$(this).html('');
-      		console.log($(this));
       		grecaptcha.render($(this).attr('id'), {'sitekey' : key});
     	});
   	}
