@@ -2,7 +2,6 @@
 
 namespace AstritZeqiri\GRecaptcha;
 
-use AstritZeqiri\GRecaptcha\GRecaptcha;
 use Illuminate\Support\ServiceProvider;
 
 class GRecaptchaServiceProvider extends ServiceProvider
@@ -22,7 +21,7 @@ class GRecaptchaServiceProvider extends ServiceProvider
             __DIR__.'/assets' => public_path('vendor/grecaptcha'),
         ], 'public');
 
-        $this->app['validator']->extend('grecaptcha', function ($attribute, $value, $parameters, $validator){
+        $this->app['validator']->extend('grecaptcha', function ($attribute, $value, $parameters, $validator) {
             return GRecaptcha::check($value);
         });
     }
