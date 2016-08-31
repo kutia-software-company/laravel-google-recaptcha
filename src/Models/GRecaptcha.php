@@ -216,7 +216,7 @@ class GRecaptcha
             if (isset($script['value'])) {
                 $inline = $script['value'];
             } elseif (isset($script['method']) && method_exists(static::class, $script['method'])) {
-                $inline = static::$script['method']();
+                $inline = static::$scripts['method']();
             }
         }
 
