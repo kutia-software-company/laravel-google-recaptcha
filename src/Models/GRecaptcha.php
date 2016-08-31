@@ -91,6 +91,16 @@ class GRecaptcha
     }
 
     /**
+     * Get the grecaptcha id.
+     *
+     * @return string
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
      * Create and render a new recaptcha.
      *
      * @param array $options
@@ -216,7 +226,8 @@ class GRecaptcha
             if (isset($script['value'])) {
                 $inline = $script['value'];
             } elseif (isset($script['method']) && method_exists(static::class, $script['method'])) {
-                $inline = static::$script['method']();
+                $method = $script['method'];
+                $inline = static::$method();
             }
         }
 
