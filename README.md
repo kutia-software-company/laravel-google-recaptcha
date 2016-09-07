@@ -1,3 +1,5 @@
+[![Total Downloads](https://poser.pugx.org/astritzeqiri/g-recaptcha/downloads)](https://packagist.org/packages/astritzeqiri/g-recaptcha)
+
 # Google recaptcha for laravel
 
 Easily add google recaptcha
