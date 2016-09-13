@@ -40,7 +40,7 @@ Now you go and generate a new Google recaptcha on the link below:
 
 [Google Recaptcha Generate](https://www.google.com/recaptcha/intro/index.html ).
 
-Then you got to your .env file and set these variables
+Then you go to your .env file and set these variables
 
 ```
 # If you want to disable captchas put this to false by default this is true.
