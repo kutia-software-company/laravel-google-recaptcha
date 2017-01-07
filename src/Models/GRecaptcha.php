@@ -238,7 +238,6 @@ class GRecaptcha
             return '<script>'.$inline.'</script>';
         }
 
-
         return '';
     }
 
