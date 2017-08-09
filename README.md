@@ -135,3 +135,6 @@ $validator = Validator::make($inputs,
     ['g-recaptcha-response' => 'required|grecaptcha']
 );
 ```
+
+## License
+[MIT](http://opensource.org/licenses/MIT)
