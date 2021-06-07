@@ -1,9 +1,9 @@
 [![StyleCI](https://styleci.io/repos/66646162/shield)](https://styleci.io/repos/66646162/)
 [![Total Downloads](https://poser.pugx.org/astritzeqiri/g-recaptcha/downloads)](https://packagist.org/packages/astritzeqiri/g-recaptcha)
 
-# Google recaptcha for laravel
+# Google recaptcha for Laravel
 
-Easily add google recaptcha
+Easily add google recaptcha in Laravel.
 
 ## Requirements
 
