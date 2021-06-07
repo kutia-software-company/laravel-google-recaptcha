@@ -137,4 +137,4 @@ $validator = Validator::make($inputs,
 ```
 
 ## License
-[MIT](http://opensource.org/licenses/MIT)
+[MIT](/LICENSE)
